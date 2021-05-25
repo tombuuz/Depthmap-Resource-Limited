@@ -13,7 +13,13 @@ Novel Depth Estimation Model for Resource-limited Devies
 Bachelor's thesis project. HSE, Moscow. 2021
 
 #### Table of Contents
-- 
+- dependencies.txt : Required packages to run
+- mymain.py : To start neural architecture search process
+- mymodel.py : Base model of the search space
+- ops.py : Operations (convolution, upconvolution, etc.)
+- mynyu.py : [NYUDepth](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) dataset and dataloader
+- transforms.py : Data transformation utility functions
+- myutility.py : Utility functions
 
 --
 ## Install And Dependencies
