@@ -37,6 +37,7 @@ Bachelor's thesis project. HSE, Moscow. 2021
 --
 ## License
 
+**@MIT** 
 --
 ## Author Info
 
