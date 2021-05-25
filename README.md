@@ -6,7 +6,6 @@
 - [Description](#description)
 - [Install and Dependencies](#install-and-dependencies)
 - [How To Use](#how-to-use)
-- [License](#license)
 - [Author Info](#author-info)
 --- 
 ## Description
@@ -26,18 +25,25 @@ Bachelor's thesis project. HSE, Moscow. 2021
 --
 ## How To Use
 
-```html
-  git clone Depthmap-Resource-Limited
+```bash
+  git clone https://github.com/tombuuz/Depthmap-Resource-Limited
 ```
 
-```python
-  git clone Depthmap-Resource-Limited
+Install required packages
+```bash
+  conda create -n myenv --file dependencies.txt
 ```
 
---
-## License
+To install [NNI](https://github.com/microsoft/nni)
+```bash
+  pip install nni
+```
+or 
+```bash
+  git clone https://github.com/microsoft/nni 
+```
 
-**@MIT** 
+
 --
 ## Author Info
 
