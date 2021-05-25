@@ -1,6 +1,6 @@
 # Depth-Estimation-on-Resource-Limited-Devices
 
-  <img src="hse_logo.png" alt="drawing" width="100"/>
+
 
 ---
 ### Table of Contents
@@ -11,11 +11,18 @@
 - [Author Info](#author-info)
 --- 
 ## Description
-Novel Depth Estimation Model for Resource-limited Devies
-Bachelor's thesis project. HSE, Moscow. 2021
+<img src="hse_logo.png" alt="drawing" width="100"/>
+
+```diff
+@@ Novel Depth Estimation Model for Resource-limited Devies @@
+@@ Bachelor's thesis project. HSE, Moscow. 2021 @@
+```
+**Novel Depth Estimation Model for Resource-limited Devies**
+*Bachelor's thesis project. HSE, Moscow. 2021*
 
 SOTA Depth Estimation deep learning models usually require high computational resource in order to operate. 
 Neural-Architecture-Search (NAS) is a technique for automating the designing of artificial neural networks without assistance of field expertise. 
+
 We have used NAS ([ProxylessNAS](https://arxiv.org/abs/1812.00332)) approach to design a novel depth estimation model with high latency and accuracy. 
 
 
