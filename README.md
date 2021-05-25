@@ -1,5 +1,7 @@
 # Depth-Estimation-on-Resource-Limited-Devices
 
+  <img src="hse_logo.png" alt="drawing" width="100"/>
+
 ---
 ### Table of Contents
 
@@ -12,14 +14,19 @@
 Novel Depth Estimation Model for Resource-limited Devies
 Bachelor's thesis project. HSE, Moscow. 2021
 
+SOTA Depth Estimation deep learning models usually require high computational resource in order to operate. 
+Neural-Architecture-Search (NAS) is a technique for automating the designing of artificial neural networks without assistance of field expertise. 
+We have used NAS ([ProxylessNAS](https://arxiv.org/abs/1812.00332)) approach to design a novel depth estimation model with high latency and accuracy. 
+
+
 #### Table of Contents
-- dependencies.txt : Required packages to run
-- mymain.py : To start neural architecture search process
-- mymodel.py : Base model of the search space
-- ops.py : Operations (convolution, upconvolution, etc.)
-- mynyu.py : [NYUDepth](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) dataset and dataloader
-- transforms.py : Data transformation utility functions
-- myutility.py : Utility functions
+- [dependencies.txt](dependencies.txt) : Required packages to run
+- [mymain.py](mymain.py) : To start neural architecture search process
+- [mymodel.py](mymodel.py) : Base model of the search space
+- [ops.py](ops.py) : Operations (convolution, upconvolution, etc.)
+- [mynyu.py](mynuy.py) : [NYUDepth](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) dataset and dataloader
+- [transforms.py](transforms.py) : Data transformation utility functions
+- [myutils.py](myutils.py) : Utility functions
 
 --
 ## Install And Dependencies
