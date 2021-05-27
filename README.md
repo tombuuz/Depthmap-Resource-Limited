@@ -11,7 +11,6 @@
 - [Author Info](#author-info)
 --- 
 ## Description
-<img src="hse_logo.png" alt="drawing" width="100"/>
 
 ```diff
 @@ Novel Depth Estimation Model for Resource-limited Devies @@
